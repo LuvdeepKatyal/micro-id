@@ -4,7 +4,7 @@ function pad(num, length){
   return num.toString().padStart(length, "0");
 }
 
-export function generateSmartUniqueID() {
+function generateSmartUniqueID() {
   const now = Date.now();
   const delta = now - CUSTOM_EPOCH;
 
