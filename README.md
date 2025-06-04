@@ -17,4 +17,4 @@ A compact, fast, time-based unique ID generator using a custom epoch and Base62 
 ## Installation
 
 ```bash
-npm install micro-id
+npm install micro-id-generator
