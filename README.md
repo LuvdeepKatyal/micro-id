@@ -25,7 +25,7 @@ Returns a unique Base62 encoded string based on the current timestamp (from cust
 ## Usage
 
 ```js
-const { generateUniqueId } = require('micro-id');
+const { generateUniqueId } = require('micro-id-generator');
 
 const id = generateUniqueId();
 console.log(id); // Example output: "1GQ8jAZdPK"
