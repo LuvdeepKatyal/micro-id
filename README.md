@@ -1,4 +1,4 @@
-# micro-id
+# micro-id-generator
 
 A compact, fast, time-based unique ID generator using a custom epoch and Base62 encoding.
 
@@ -15,6 +15,17 @@ A compact, fast, time-based unique ID generator using a custom epoch and Base62 
 ---
 
 ## Installation
-
-```bash
 npm install micro-id-generator
+
+---
+
+## generateUniqueId()
+Returns a unique Base62 encoded string based on the current timestamp (from custom epoch), a version number, and a random number.
+
+## Usage
+
+```js
+const { generateUniqueId } = require('micro-id');
+
+const id = generateUniqueId();
+console.log(id); // Example output: "1GQ8jAZdPK"
