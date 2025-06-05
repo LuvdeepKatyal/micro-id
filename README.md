@@ -9,20 +9,20 @@ A blazing fast, compact, timestamp-based unique ID generator using Base62 encodi
 - 🔥 **Ultra-fast** and dependency-free
 - 🧠 Uses **custom epoch** + timestamp
 - 🔢 **Base62 encoded** short IDs (e.g., `8AHZkJLvI`)
-- 📦 Extremely **lightweight** (~1.2 KB)
+- 📦 Extremely **lightweight** (~3 KB)
 - ✅ Perfect for **microservices**, **logs**, **databases**, and **URLs**
 
 ---
 
 ## 🧪 Features
 
-⏱ Timestamp-based ID generation
-🧮 Base62 encoding = shorter IDs
-🛡 Zero dependencies
-🌍 Collision-resistant in distributed systems
-🔒 No external dependencies
-📦 Ultra lightweight
-🛡 Safe & minimal
+- ⏱ Timestamp-based ID generation
+- 🧮 Base62 encoding = shorter IDs
+- 🛡 Zero dependencies
+- 🌍 Collision-resistant in distributed systems
+- 🔒 No external dependencies
+- 📦 Ultra lightweight
+- 🛡 Safe & minimal
 
 ---
 
