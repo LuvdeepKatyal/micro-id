@@ -1,6 +1,6 @@
 {
   "name": "micro-id-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A compact, fast, time-based unique ID generator using custom epoch and Base62 encoding",
   "main": "microId.js",
   "type": "commonjs",
@@ -23,8 +23,5 @@
     "type": "git",
     "url": "https://github.com/LuvdeepKatyal/micro-id"
   },
-  "homepage": "https://github.com/LuvdeepKatyal/micro-id#readme",
-  "dependencies": {
-    "micro-id-generator": "^1.0.2"
-  }
+  "homepage": "https://github.com/LuvdeepKatyal/micro-id#readme"
 }
